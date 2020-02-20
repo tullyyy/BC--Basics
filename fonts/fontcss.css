@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lime;
+  font-family: "Lethal Slime";
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  color: hotpink;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: yellow;
+}
