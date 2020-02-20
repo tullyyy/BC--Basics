@@ -1,0 +1,21 @@
+img {
+  max-width: 10em;
+  border-radius: 50%;
+  border: black solid 0.5em;
+}
+
+main {
+  max-width: 20em;
+  text-align: center;
+  border: black solid 0.2em;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
