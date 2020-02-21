@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("img/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  /* background-image: url(img/bg.svg); */
+}
+
+body {
+  font-family: serif;
+}
+
+.text h1 {
+  padding: 4% 60% 0% 13%;
+  color: rgb(35, 3, 56);
+}
+
+.text p {
+  padding: 50% 0% 0% 50%;
+  font-size: 1.2em;
+  /* padding-top: 1em; */
+}
+
+.plush {
+  display: inline-block;
+  position: relative;
+  bottom: 2em;
+  left: 45em;
+}
+
+img {
+  height: 400px;
+}
