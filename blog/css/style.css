@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 1em 20em;
+}
+
+.fullbox {
+  display: flex;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text {
+  max-width: 50%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+.fullbox:nth-child(even) .image {
+  order: 2;
+}
+
+.fullbox:nth-child(even) .text {
+  order: 1;
+}
