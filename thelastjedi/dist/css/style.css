@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif; }
+
+section {
+  border-bottom: solid grey 1px; }
+
+h2 {
+  text-align: center;
+  font-size: 2em; }
+
+main {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  background-color: #4d4d4d;
+  display: flex;
+  justify-content: center; }
+  header nav {
+    border: #4d4d4d solid 5px;
+    max-width: 800px;
+    padding: 1em; }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1em; }
+      header nav a:hover {
+        background-color: white;
+        color: #4d4d4d; }
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: red;
+  background-image: url("/img/welcome.jpg");
+  background-position: 40% 55%; }
+  .welcome .welcometext {
+    max-width: 800px;
+    padding: 4em;
+    color: #fff6f6; }
+    .welcome .welcometext h1 {
+      align-items: center;
+      text-align: center;
+      font-size: 3.5em;
+      margin: 0.25em; }
+    .welcome .welcometext h2 {
+      align-items: center;
+      margin: 0 0 1em 0; }
+
+.characters {
+  background-image: url("/img/rey-standing.jpg");
+  background-position: 100% 50%;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .characters .icons {
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1em; }
+  .characters .icon {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%; }
+  .characters .iconsmall {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%; }
+  .characters .iconsmaller {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%; }
+  .characters .iconsmallest {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%; }
+
+.plot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .plot .plotcontent {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    justify-content: center;
+    padding: 2em; }
+  .plot .plottext {
+    display: flex;
+    flex-direction: column;
+    padding: 1em; }
+    .plot .plottext p:first-child {
+      font-size: 1.2em; }
+  .plot img {
+    height: 20em;
+    width: 15em; }
+
+.gallery {
+  height: 35em;
+  background-color: lightgray; }
+  .gallery .galleryphoto {
+    height: 30em;
+    background-image: url("/img/gallery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 30%; }
+
+.icon-right-open,
+.icon-left-open {
+  height: 2em;
+  width: 2em;
+  font-size: 2em;
+  color: hotpink; }
+
+.ratings {
+  height: 30em;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .ratings p {
+    font-size: 1em;
+    padding: 0;
+    margin: 0 0 0 2em; }
+  .ratings h2 {
+    padding: 0.5em 0 0 0;
+    margin: 0; }
+
+.rate {
+  display: flex;
+  flex-direction: column; }
+
+.bar {
+  background-color: #979797;
+  width: 13em;
+  margin: 0 2em; }
+
+.bar1 {
+  height: 250px; }
+
+.bar2 {
+  height: 300px; }
+
+.bar3 {
+  height: 270px; }
+
+.ratingbars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  max-width: 800px; }
+
+.cast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 35em;
+  background-color: lightgray; }
+  .cast .castcontent {
+    max-width: 800px; }
+
+.hamill {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .hamill img {
+    height: 15em; }
+  .hamill p {
+    font-size: 0.9em; }
+  .hamill p:first-child {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 0; }
+
+.hamilltext {
+  display: flex;
+  flex-direction: column;
+  padding: 1em; }
+
+.castimages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em; }
+  .castimages img {
+    height: 10em; }
+
+.castmember {
+  position: relative;
+  margin: 1em; }
+  .castmember .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

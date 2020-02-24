@@ -1,0 +1,21 @@
+.gallery {
+  height: 35em;
+  background-color: lightgray;
+
+  .galleryphoto {
+    height: 30em;
+    background-image: url("/img/gallery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+  }
+}
+
+.icon-right-open,
+.icon-left-open {
+  height: 2em;
+  width: 2em;
+  font-size: 2em;
+  color: hotpink;
+
+}

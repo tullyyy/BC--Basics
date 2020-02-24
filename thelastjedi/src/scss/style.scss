@@ -1,0 +1,36 @@
+$gray: rgb(77, 77, 77);
+$white: rgb(255, 246, 246);
+$max-width-content: 800px;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  border-bottom: solid grey 1px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+@import "nav";
+@import "welcome";
+@import "characters";
+@import "plot";
+@import "gallery";
+@import "ratings";
+@import "cast";

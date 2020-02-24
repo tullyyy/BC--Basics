@@ -1,0 +1,49 @@
+.ratings {
+  height: 30em;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 1em;
+    padding: 0;
+    margin: 0 0 0 2em;
+  }
+
+  h2 {
+    padding: 0.5em 0 0 0;
+    margin: 0;
+  }
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  background-color: rgb(151, 151, 151);
+  width: 13em;
+  margin: 0 2em;
+}
+
+.bar1 {
+  height: 250px;
+}
+
+.bar2 {
+  height: 300px;
+}
+
+.bar3 {
+  height: 270px;
+}
+
+.ratingbars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  max-width: $max-width-content;
+}

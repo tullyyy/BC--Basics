@@ -1,0 +1,9 @@
+nav {
+  display: flex; }
+  nav a {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    padding: 1em; }
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,28 @@
+.plot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .plotcontent {
+    display: flex;
+    flex-direction: row;
+    max-width: $max-width-content;
+    justify-content: center;
+    padding: 2em;
+  }
+  .plottext {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+    p:first-child {
+      font-size: 1.2em;
+    }
+  }
+
+  img {
+    height: 20em;
+    width: 15em;
+  }
+}

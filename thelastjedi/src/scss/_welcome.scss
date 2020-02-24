@@ -1,0 +1,27 @@
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: red;
+  background-image: url("/img/welcome.jpg");
+  background-position: 40% 55%;
+
+  .welcometext {
+    max-width: $max-width-content;
+    // height:
+    padding: 4em;
+    color: $white;
+
+    h1 {
+      align-items: center;
+      text-align: center;
+      font-size: 3.5em;
+      margin: 0.25em;
+    }
+
+    h2 {
+      align-items: center;
+      margin: 0 0 1em 0;
+    }
+  }
+}
