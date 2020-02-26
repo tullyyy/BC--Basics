@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import "variables";
+@import "icons";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  position: fixed;
+  color: $color-text-sidebar;
+  width: 16rem;
+  height: 100vh;
+  padding: 1rem 2rem;
+
+  background-color: $color-bg-primary;
+
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+  p {
+    color: $color-text-secondary;
+  }
+
+  &__logo {
+    background-image: url("/img/vibecast-logo.svg");
+    background-size: contain;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-text-sidebar;
+  }
+}
+
+.sidebar__navigation {
+  a {
+    margin: 1em 1.5em;
+    line-height: 1.7;
+    text-transform: uppercase;
+  }
+}
+
+.sidebar__desc {
+  margin: 2em 0;
+}
+
+.podcast {
+  margin-left: 16rem;
+}
+
+.podcast-heading {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  padding: 1rem 2.5rem;
+  background-color: $color-bg-secondary;
+
+  &__logo {
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    margin-right: 1rem;
+  }
+
+  &__title {
+    padding-bottom: 0.5rem;
+
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+}
+
+.episode {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid grey;
+  // margin-bottom: 1rem;
+  padding: 0.8em;
+  color: $color-text-secondary;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+
+  &__title {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: $color-bg-primary;
+  }
+
+  &__number {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  &__thumbnail {
+    height: 2.6em;
+    width: 2.6em;
+    background-color: black;
+    margin: 0 1em;
+  }
+
+  &__date {
+    margin: 0 1em;
+  }
+
+  &__time {
+  }
+
+  i {
+    margin-right: 0.3em;
+  }
+}
+
+.btn {
+  outline: none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  padding: 0.4em 0.7em;
+  margin: 2em;
+  border: 1px white solid;
+  background-color: $color-btn-primary;
+  color: $color-text-secondary;
+
+  i {
+    font-size: 1.1em;
+    padding: 0.2em;
+  }
+
+  // &--primary {
+  // }
+}
